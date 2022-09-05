@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #19172e;
+    color: white;
+}
+
+.section {
+    margin: 10% auto;
+    background: rgba(255, 255, 255, 0.05);
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    width: 500px;
+    height: 350px;
+    text-align: center;
+}
+
+.heading {
+    font-size: 2rem;
+    padding-top: 3vh;
+    margin: 50px auto;
+    font-weight: bolder;
+}
+
+input {
+    background: none;
+    padding: 10px;
+    margin: 10px auto;
+    display: block;
+    border-radius: 5px;
+    border: 1px solid lightgrey;
+    width: 274px;
+    color: white;
+}
+
+input[type="text"]::placeholder {
+    color: lightgray;
+}
+.addRemove{
+    margin-top: 20px;
+
+}
+#add {
+    cursor: pointer;
+    width: 75px;
+    height: 40px;
+    margin: 20px;
+    padding: 10px;
+    font-size: 1rem;
+    background-color: rgb(44, 207, 219);
+    border-radius: 8px;
+    justify-content: center;
+    text-align: center;
+}
+
+#remove {
+    cursor: pointer;
+    width: 90px;
+    height: 40px;
+    margin: 20px;
+    padding: 10px;
+    font-size: 1rem;
+    background-color: rgb(206, 222, 161);
+    border-radius: 8px;
+}
+
+footer {
+    text-align: center;
+    font-size: 1rem;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin-bottom: 0;
+    padding: 5px;
+    line-height: 3vh;
+}
+
+footer a:visited {
+    color: inherit;
+}
